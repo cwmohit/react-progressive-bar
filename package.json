@@ -1,6 +1,6 @@
 {
   "name": "react-progressive-bar",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Create customise progress bar",
   "type": "module",
   "main": "dist/index.js",
@@ -8,6 +8,33 @@
   "scripts": {
     "build": "npx rollup -c"
   },
+  "keywords": [
+    "react",
+    "progress-bar",
+    "progress",
+    "ui",
+    "component",
+    "animation",
+    "indeterminate",
+    "react-component",
+    "progress-indicator",
+    "progress-meter",
+    "react-ui",
+    "custom-progress",
+    "animated-progress",
+    "react-progress",
+    "progress-tracker",
+    "responsive-progress",
+    "progress-visualization",
+    "react-hooks",
+    "ui-component",
+    "progress-animation",
+    "react-library",
+    "react-progress-bar",
+    "indeterminate-progress",
+    "react-progress-component",
+    "loading-bar"
+  ],
   "author": "cwmohit",
   "license": "Apache-2.0",
   "devDependencies": {
