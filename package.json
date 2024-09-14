@@ -8,8 +8,8 @@
   "scripts": {
     "build": "npx rollup -c"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "cwmohit",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^11.1.6",
