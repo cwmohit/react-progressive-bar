@@ -49,9 +49,11 @@ const MyComponent = () => {
       <h1>Testing Progress Bar</h1>
       <ProgressBar
         progress={progress}
-        color="green"
-        height={30}
-        animationDuration="4s"
+        color="#4CAF50"
+        height={24}
+        showPercentage={true}
+        indeterminate={false}
+        percentageColor="black"
       />
       <button onClick={() => setProgress(0)}>Reset Progress</button>
     </div>
