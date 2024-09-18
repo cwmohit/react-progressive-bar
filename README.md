@@ -1,7 +1,7 @@
 # react-progressive-bar
 A simple and customizable progress bar component for React. This package provides both a `<ProgressBar />` component and a custom hook `useProgressBar` to manage progress state.
 
-![react-progressive-bar](https://github.com/user-attachments/assets/eef6bb47-f86f-4cbd-8efb-1c204c0d01b0)
+![react-progressive-bar](https://github.com/user-attachments/assets/ed7b97dc-3550-4130-9c4a-ed8a12407b28)
 
 # Installation
 To install the package, use npm or yarn:
@@ -19,7 +19,21 @@ A customizable progress bar component that can display both determinate and inde
 -   **`color`** (`string`): Color of the progress bar. Defaults to `'blue'`.
 -   **`indeterminate`** (`boolean`): If `true`, the progress bar shows an indeterminate loading animation. Defaults to `false`.
 -   **`animationDuration`** (`string`): Duration of the progress bar animation. Defaults to `'0.5s'`.
--   **`animationTimingFunction`** (`string`): Timing function for the animation. Defaults to `'ease-in-out'`.
+-   **`animationTimingFunction`** (`boolean`): If `true`, displays the progress percentage inside the progress bar. Defaults to `false`.
+-   **`showPercentage`** (`string`): Duration of the progress bar animation. Defaults to `'0.5s'`.
+-   **`percentageColor`** (`string`): Color of the percentage text inside the progress bar. Defaults to `black`.
+
+### `useProgressBar`
+A custom hook to manage the progress state of the progress bar.
+#### Props
+-   **`initialValue`** (`number`): The initial value of the progress. Defaults to `0`.
+-   **`step`** (`number`): The amount by which the progress increases in each interval. Defaults to `10`.
+-   **`interval`** (`number`): The time interval (in milliseconds) at which the progress is updated. Defaults to `1000`.
+
+#### `returns`
+-   **`progress`** (`number`): The current progress value.
+-   **`setProgress`** (`Function`): A function to manually set the progress value.
+
 
 ## Example Usage
 
@@ -59,3 +73,9 @@ Feel free to open issues and pull requests to contribute to this project. Please
 
 ### 1.0.0
 -   Initial release with `ProgressBar` component and `useProgressBar` hook.
+
+### 1.1.0
+-   Bug fixes in Initial release with `ProgressBar` component and `useProgressBar` hook.
+
+### 1.2.0
+-   Percentage and custom features added for `ProgressBar` and updated `useProgressBar` default values.
