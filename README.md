@@ -1,7 +1,7 @@
 # react-progressive-bar
 A simple and customizable progress bar component for React. This package provides both a `<ProgressBar />` component and a custom hook `useProgressBar` to manage progress state.
 
-![react-progressive-bar](https://github.com/user-attachments/assets/ed7b97dc-3550-4130-9c4a-ed8a12407b28)
+![react-progressive-bar](https://github.com/user-attachments/assets/e4487790-3ad6-4abe-9acd-304b05bb31a0)
 
 # Installation
 To install the package, use npm or yarn:
